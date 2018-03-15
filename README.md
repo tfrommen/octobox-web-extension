@@ -18,3 +18,5 @@ This will differ between the individual browsers, but here are links for [Firefo
 Copyright (c) 2018 Thorsten Frommen
 
 This code is licensed under the [MIT License](LICENSE).
+
+The official Octobox icon is licensed under the [GNU Affero General Public License v3](https://github.com/octobox/octobox/blob/master/LICENSE.txt).
