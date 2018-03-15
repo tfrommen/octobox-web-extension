@@ -1,4 +1,4 @@
 document
 	.getElementById('user-links')
 	.querySelector('a.notification-indicator')
-	.href = 'https://octobox.io';
+	.href = 'https://octobox.io/notifications/sync';
