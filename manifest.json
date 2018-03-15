@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "Octobox Web Extension",
+  "version": "1.0.0",
+
+  "description": "Makes your GitHub notifications icon link to Octobox instead of GitHub.",
+  "homepage_url": "https://github.com/tfrommen/octobox-web-extension",
+  "icons": {
+    "48": "icons/48.png",
+    "96": "icons/96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.github.com/*"
+      ],
+      "js": [
+        "scripts.js"
+      ]
+    }
+  ]
+
+}

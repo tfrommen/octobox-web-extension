@@ -1,0 +1,22 @@
+# Backups
+*~
+*.DS_Store
+*.out
+*.so
+*.swp
+
+# Logs
+logs
+*.log
+
+# Node
+.npm
+node_modules
+npm-debug.log*
+
+# PhpStorm
+.idea
+
+
+# Git
+!.gitkeep
