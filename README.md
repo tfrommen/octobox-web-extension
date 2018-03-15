@@ -19,4 +19,4 @@ Copyright (c) 2018 Thorsten Frommen
 
 This code is licensed under the [MIT License](LICENSE).
 
-The official Octobox icon is licensed under the [GNU Affero General Public License v3](https://github.com/octobox/octobox/blob/master/LICENSE.txt).
+The official Octobox icon is licensed under the [GNU Affero General Public License v3.0](https://github.com/octobox/octobox/blob/master/LICENSE.txt).
