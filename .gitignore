@@ -17,6 +17,9 @@ npm-debug.log*
 # PhpStorm
 .idea
 
+# web-ext
+web-ext-artifacts
+
 
 # Git
 !.gitkeep

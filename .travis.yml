@@ -1,0 +1,15 @@
+language: node_js
+
+sudo: false
+
+cache:
+  apt: true
+  yarn: true
+  directories:
+    - $HOME/.npm
+
+node_js:
+  - 9
+
+script:
+  - yarn test

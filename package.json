@@ -1,0 +1,24 @@
+{
+  "name": "octobox-web-extension",
+  "version": "1.0.0",
+  "description": "Makes your GitHub notifications icon link to Octobox instead of GitHub.",
+  "homepage": "https://github.com/tfrommen/octobox-web-extension",
+  "bugs": {
+    "url": "https://github.com/tfrommen/octobox-web-extension/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Thorsten Frommen",
+    "email": "info@tfrommen.de",
+    "url": "https://tfrommen.de"
+  },
+  "repository": "github:tfrommen/octobox-web-extension",
+  "scripts": {
+    "build": "web-ext build",
+    "test": "web-ext lint"
+  },
+  "devDependencies": {
+    "web-ext": "^2.5.0"
+  },
+  "private": true
+}
