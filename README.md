@@ -14,7 +14,6 @@ Unfortunately, however, it does not integrate with the GitHub UI, meaning the Gi
 
 This cross-browser web extension fixes that!
 While the notifications icon still looks like before—including its status indicator—it now points to your Octobox.
-
 Once there, you can click one of your notifications to go to the according page on GitHub.
 In case you want to go back to the GitHub dashboard, the web extension injects a GitHub icon to the menu bar for you.
 
