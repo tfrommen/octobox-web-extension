@@ -13,3 +13,9 @@ node_js:
 
 script:
   - yarn test
+
+notifications:
+  email:
+    on_start: never
+    on_failure: always
+    on_success: change
