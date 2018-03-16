@@ -9,11 +9,11 @@
 
 ## Introduction
 
-[Octobox](https://octobox.io) is an awesome inbox-like entrypoint to GitHub notifications.
+[Octobox](https://octobox.io) is an awesome inbox-like entrypoint to your GitHub notifications.
 Unfortunately, however, it does not integrate with the GitHub UI, meaning the GitHub notifications icon still links to the GitHub notifications page.
 
 This cross-browser web extension fixes that!
-While the notification icon still looks like before—including its status indicator—it now points to your Octobox.
+While the notifications icon still looks like before—including its status indicator—it now points to your Octobox.
 
 Once there, you can click one of your notifications to go to the according page on GitHub.
 In case you want to go back to the GitHub dashboard, the web extension injects a GitHub icon to the menu bar for you.
