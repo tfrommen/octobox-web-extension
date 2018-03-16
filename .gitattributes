@@ -8,4 +8,4 @@
 /.travis.yml export-ignore
 /package.json export-ignore
 /web-ext-config.js export-ignore
-/yarn-lock export-ignore
+/yarn.lock export-ignore
