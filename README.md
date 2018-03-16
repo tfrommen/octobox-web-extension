@@ -9,10 +9,10 @@
 
 ## Installation
 
-As this is still in beta, it is not yet published.
+The Octobox Web Extension is available for [Google Chrome](https://chrome.google.com/webstore/detail/octobox-web-extension/efhkcafmbonnomnimilnephjgeccffdn) and [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/octobox-web-extension/).
 
-In order to **temporarily** install the extension, [download the ZIP file](https://github.com/tfrommen/octobox-web-extension/archive/master.zip) and select it as a new add-on or extension.
-This will differ between the individual browsers, but here are links for [Firefox](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Temporary_Installation_in_Firefox) and [Chrome](https://www.cnet.com/how-to/how-to-install-chrome-extensions-manually/) (only possible in Developer mode).
+For other browsers that support web extensions, you can also [download the ZIP file](https://github.com/tfrommen/octobox-web-extension/archive/master.zip) and select it as a new add-on or extension.
+How to do this will differ between the individual browsers.
 
 ## License
 
