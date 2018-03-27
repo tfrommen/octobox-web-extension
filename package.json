@@ -6,7 +6,7 @@
   "bugs": {
     "url": "https://github.com/tfrommen/octobox-web-extension/issues"
   },
-  "license": "MIT",
+  "license": "AGPL-3.0-only",
   "author": {
     "name": "Thorsten Frommen",
     "email": "info@tfrommen.de",

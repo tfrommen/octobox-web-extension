@@ -28,6 +28,6 @@ How to do this will differ between the individual browsers.
 
 Copyright (c) 2018 Thorsten Frommen
 
-This code is licensed under the [MIT License](https://github.com/tfrommen/octobox-web-extension/blob/master/LICENSE).
+This code is licensed under the [GNU Affero General Public License version 3](https://github.com/tfrommen/octobox-web-extension/blob/master/LICENSE).
 
-The Octobox icon is licensed under the [GNU Affero General Public License v3.0](https://github.com/octobox/octobox/blob/master/LICENSE.txt).
+The original Octobox icon is also licensed under the [GNU Affero General Public License version 3](https://github.com/octobox/octobox/blob/master/LICENSE.txt).
