@@ -17,6 +17,9 @@ While the notifications icon still looks like before—including its status indi
 Once there, you can click one of your notifications to go to the according page on GitHub.
 In case you want to go back to the GitHub dashboard, the web extension injects a GitHub icon to the menu bar for you.
 
+By default, the web extension connects to the _official_ Octobox at [https://octobox.io](https://octobox.io).
+However, you can also supply a custom URL in the settings, in case you are hosting your own Octobox somewhere.
+
 ## Installation
 
 The Octobox Web Extension is available for [Google Chrome](https://chrome.google.com/webstore/detail/octobox-web-extension/efhkcafmbonnomnimilnephjgeccffdn) and [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/octobox-web-extension/).
