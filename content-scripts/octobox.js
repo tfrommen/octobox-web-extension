@@ -1,13 +1,28 @@
 const notificationsPanel = document.querySelector('.panel-notifications');
-
-const githubLinks = [...notificationsPanel.querySelectorAll('a[href^="https://github.com/"]')];
-githubLinks.forEach(a => a.removeAttribute('target'));
+const navBar = document.getElementsByClassName('navbar-nav')[0];
 
 const githubMenuLink = document.createElement('a');
-githubMenuLink.href = 'https://github.com';
-githubMenuLink.classList.add('navbar-brand');
-githubMenuLink.title = 'GitHub';
+githubMenuLink.href = 'https://github.com/notifications';
+githubMenuLink.classList.add('btn');
+githubMenuLink.classList.add('btn-sm');
+
+githubMenuLink.title = 'Open GitHub Notifications page';
 githubMenuLink.id = 'github';
-githubMenuLink.style.cssText = 'position: absolute; left: 50%; margin-left: -14px;';
-githubMenuLink.innerHTML = '<svg height="28" viewBox="0 0 16 16" version="1.1" style="fill: #fff; margin-top: -.22em; vertical-align: -.38em;"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>';
-document.getElementById('octobox-menu').appendChild(githubMenuLink);
+githubMenuLink.style.paddingRight = '0';
+
+githubMenuLink.innerHTML = '<svg class="octicon octicon-bell" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"></path></svg>';
+
+githubMenuSVG = githubMenuLink.getElementsByTagName("svg")[0];
+githubMenuSVG.style.width = "14px";
+githubMenuSVG.style.height = "14px";
+githubMenuSVG.style.verticalAlign = "-2px";
+
+const githubMenuItem = document.createElement('li');
+githubMenuItem.classList.add('nav-item');
+githubMenuItem.classList.add('nav-link');
+githubMenuItem.classList.add('d-none');
+githubMenuItem.classList.add('d-md-block');
+
+githubMenuItem.appendChild(githubMenuLink);
+
+navBar.prepend(githubMenuItem);
